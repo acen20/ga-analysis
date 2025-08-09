@@ -3,3 +3,4 @@ donut_api/src/model/*
 det_models/*
 ocr_model/*
 output/*
+tmp/*
