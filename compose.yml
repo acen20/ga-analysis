@@ -1,0 +1,25 @@
+version: "3.8"
+
+networks:
+  app-network:
+    driver: bridge
+
+services:
+  donut_api:
+    build:
+      context: ./donut_api
+      dockerfile: Dockerfile
+    networks:
+      - app-network
+    container_name: donut_api
+    # No ports exposed since you didn't specify
+
+  vessel:
+    build:
+      context: ./vessel
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    networks:
+      - app-network
+    container_name: vessel

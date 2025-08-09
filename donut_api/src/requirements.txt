@@ -1,0 +1,12 @@
+transformers==4.25.1
+pandas==1.5.3
+torch==1.7.1+cu110
+torchvision==0.8.2+cu110
+pyyaml==6.0
+pillow==9.4.0
+numpy==1.25.2
+timm==0.5.4
+sentencepiece==0.2.0
+fastapi==0.65.1
+uvicorn==0.20.0
+python-multipart==0.0.5
