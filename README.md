@@ -3,6 +3,9 @@
 ## Description
 Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning models for automated detection and extraction of tables, nozzles, notes, and views.
 
+![Annotated Image](assets/annotated.png)
+
+
 ## Tech Stack
 - **YOLOv8 (nano):** For cropping regions of interest (notes, tables, nozzles, views)  
 - **PaddleOCR (OCR + PPStructureV3):** For parsing tables and nozzle symbols with high accuracy  

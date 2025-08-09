@@ -8,6 +8,7 @@ import time
 import io
 import requests
 from utils import annotate_image
+import shutil
 
 section_model_path = "yolo/section/best.pt"
 
@@ -114,10 +115,12 @@ def analyze_vessel_image(image_path):
     print("Notes extracted and took:", time.time() - start_time, "seconds")
     
     tables = sections.get("table", [])
+    os.makedirs("tmp/tables", exist_ok=True)
 
     start_time = time.time()
     for table in tables:
         id = str(uuid.uuid4())
+        table_img_path = f"tmp/tables/{id}.png"
         x1, y1, x2, y2 = table
         x1_off = max(0, x1 - table_offset)
         y1_off = max(0, y1 - table_offset)
@@ -148,6 +151,8 @@ def analyze_vessel_image(image_path):
         "nozzles": nozzles, # T2
         "notes": all_notes, # T3
     }
+
+    shutil.rmtree("tmp/")  # Clean up temporary table images
 
     annotate_image(img, result)  # Annotate the image with results
 
