@@ -26,41 +26,42 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
 
 ## Setup Instructions
 
-1. Clone this repository:
+1. Clone the repository:
     ```bash
-    git clone <your-repo-url>
-    cd <repo-folder>
+    git clone https://www.github.com/acen20/ga-analysis
+    cd ga-analysis
     ```
 
-2. Download YOLOv8 model checkpoints and place them in the respective folders:
+    create `det_models/` and `ocr_model/`
 
+2. Download YOLOv8 checkpoint files and place them in the `det_models/` directory:  
     ```
-    vessel/
-    └── src/
-        └── yolo/
-            ├── view/
-            │   └── best.pt
-            ├── nozzle/
-            │   └── best.pt
-            └── section/
-                └── best.pt
-    ```
-
-3. Download DONUT checkpoint files and place them here:
-
-    ```
-    donut_api/
-    └── src/
-        └── model/
-            └── {all checkpoint files}
+    det_models/
+    ├── view/
+    │   └── best.pt
+    ├── section/
+    │   └── best.pt
+    └── nozzle/
+        └── best.pt
     ```
 
-4. Build and start the services using Docker Compose:
+3. Download DONUT checkpoint files and place them in the `ocr_model/` directory:  
+    ```
+    ocr_model/
+    └── {all extracted files here}
+    ```
 
+4. Build and start the containers:
     ```bash
     docker-compose up --build
     ```
-    <b>The first startup may take a bit longer because PaddleOCR needs to download some model files.</b>
+
+5. Access the API endpoint:  
+    ```
+    http://localhost:8000/detect
+    ```
+
+---
 
 ## Usage
 

@@ -11,7 +11,7 @@ services:
       - app-network
     container_name: donut_api
     volumes:
-      - ./ocr_model:/model   # Mount local ocr_model/ to /model in donut_api container
+      - ./ocr_model/model:/app/model   # Mount local ocr_model/ to /model in donut_api container
 
   vessel:
     build:
@@ -23,4 +23,5 @@ services:
       - app-network
     container_name: vessel
     volumes:
-      - ./det_models:/yolo   # Mount local det_models/ to /yolo in vessel container
+      - ./det_models:/app/yolo   # Mount local det_models/ to /yolo in vessel container
+      - ./output:/app/output
