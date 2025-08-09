@@ -35,7 +35,7 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
     cd ga-analysis
     ```
 
-    create `det_models/` and `ocr_model/`
+    Download `det_models/` and `ocr_model/` from [Google Drive Folder](https://drive.google.com/drive/folders/1KVx35KErulzlbqunYOW1U2QssBnUf6O0?usp=sharing)
 
 2. Download YOLOv8 checkpoint files and place them in the `det_models/` directory:  
     ```
