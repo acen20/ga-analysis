@@ -1,5 +1,3 @@
-version: "3.8"
-
 networks:
   app-network:
     driver: bridge
@@ -12,7 +10,8 @@ services:
     networks:
       - app-network
     container_name: donut_api
-    # No ports exposed since you didn't specify
+    volumes:
+      - ./ocr_model:/model   # Mount local ocr_model/ to /model in donut_api container
 
   vessel:
     build:
@@ -23,3 +22,5 @@ services:
     networks:
       - app-network
     container_name: vessel
+    volumes:
+      - ./det_models:/yolo   # Mount local det_models/ to /yolo in vessel container
