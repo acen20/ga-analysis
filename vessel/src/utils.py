@@ -1,6 +1,7 @@
 import cv2
 import json
 import numpy as np
+import os
 
 def annotate_image(img, data):
     """Annotate image with bounding boxes from JSON data."""
@@ -57,4 +58,5 @@ def annotate_image(img, data):
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
     # Save annotated image
-    cv2.imwrite("annotated.png", img)
+    os.makedirs("output", exist_ok=True)
+    cv2.imwrite("output/annotated.png", img)
