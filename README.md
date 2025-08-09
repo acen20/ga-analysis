@@ -63,7 +63,7 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
     ```
     http://localhost:8000/detect
     ```
-
+> **Note:** First Startup takes time as PaddleOCR downloads OCR models
 ---
 
 ## Usage
