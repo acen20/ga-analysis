@@ -16,7 +16,7 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
 - **CPU:** Intel Core i9-14900KF (24 cores, 32 threads)  
 - **RAM:** 64GB  
 
-> **Note:** All models currently run on CPU.
+> **Note:** All models currently run on CPU. (Takes ~30 Seconds per image)
 
 ## Methodology
 
