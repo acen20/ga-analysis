@@ -30,7 +30,7 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
 
 ## Output JSON Schema
 
-```json
+```
 {
   "tables": [{ "name": "str", "rows": [["..."]], "bbox": [x, y, w, h] }],
   "nozzles": [{ "bbox": [x, y, w, h], "view": "str", "text": "str" }],
@@ -89,3 +89,17 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
 ```bash
 curl -X POST "http://localhost:8000/detect" \
   -F "file=@path/to/your/file.pdf"
+```
+
+
+## Limitations
+
+1. **Limited Dataset Size**  
+   With only 12 documents available for training/testing, the model may not generalize well to variations in document structure, terminology, or formatting.
+
+2. **Edge Case – Split Notes Section**  
+   In some cases, the *Notes* section is split into two parts across the document. This was not detected due to the lack of such variations in the dataset.  
+   - Potential fix: Oversample relevant cases to train for this pattern. This can be attempted in future iterations.
+
+3. **Complex Table Structures**  
+   Some table layouts are too complex for PaddleOCR’s `PPStructureV3` to accurately distinguish cell boundaries. A more sophisticated table parsing strategy is required for improved accuracy.
