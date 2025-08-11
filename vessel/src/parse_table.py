@@ -42,6 +42,7 @@ def ppstructure_parse(image_path):
     parsed_results = []
     for res in output:
         parsed_results.append(res)
+        res.save_to_img("./output/")
 
     return parsed_results
 
@@ -84,7 +85,7 @@ def parse_table(table_image_path):
             data_rows.append(row_data)
 
     max_search_header = 2
-    while not header_text or len(header_text)<=1:
+    while not header_text or len(header_text)<=2:
         header_text = " ".join(data_rows[0]).strip()
         del data_rows[0]
         max_search_header -= 1
