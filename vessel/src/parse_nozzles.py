@@ -44,7 +44,7 @@ def paddle_ocr_text(image, type_="normal"):
     result = ocr.predict(image)
     texts = result[0]['rec_texts']
     if type_ == "nozzle":
-        if not len(texts) == 2:
+        if not len(texts) == 2 and texts:
             texts[-1] = '"'
         if len(texts) == 3:
             texts[1] = texts[1] + texts[2]
@@ -62,7 +62,7 @@ def detect_views(image):
     return results.boxes.xyxy.cpu().numpy().astype(int)
 
 def detect_nozzles(view_crop):
-    results = nozzle_model(view_crop, imgsz=1024, verbose=False)[0]
+    results = nozzle_model(view_crop, imgsz=1024, verbose=False, conf=0.25)[0]
     return results.boxes.xyxy.cpu().numpy().astype(int)
 
 def classify_view(text):
