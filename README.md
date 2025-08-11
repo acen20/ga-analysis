@@ -36,7 +36,7 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
   "nozzles": [{ "bbox": [x, y, w, h], "view": "str", "text": "str" }],
   "notes": { "notes": { "key": "val" }, "bbox": [x, y, w, h] }
 }
-
+```
 
 ## Setup Instructions
 
