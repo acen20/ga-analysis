@@ -5,7 +5,6 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
 
 ![Annotated Image](assets/annotated.png)
 
-
 ## Tech Stack
 - **YOLOv8 (nano):** For cropping regions of interest (notes, tables, nozzles, views)  
 - **PaddleOCR (OCR + PPStructureV3):** For parsing tables and nozzle symbols with high accuracy  
@@ -20,12 +19,24 @@ Analyze GA (General Arrangement) Drawings using state-of-the-art deep learning m
 
 ## Methodology
 
+![Methodology Flow](assets/GAAnalysis.png)
+
 | Task                            | Training Images (after augmentation) | Validation Images | Resolution | mAP50  | mAP   | Notes/Dice (ED) |
 |--------------------------------|-------------------------------------|-------------------|------------|--------|-------|-----------------|
 | YOLOv8n - Notes & Tables        | 33 (from 11)                        | 1                 | 2048       | 99.5%  | 93.9% |                 |
 | YOLOv8 - Views Detection        | 33 (from 11)                        | 1                 | 1536       | 99.5%  | 95.1% |                 |
 | YOLOv8 - Nozzles Detection      | 40                                 | 2                 | 1024       | 96%    | 85%   |                 |
 | DONUT - Notes Extraction        | 11 (runtime augmentations)          | 1                 | 1280        |        |       | ED: 0.031       |
+
+## Output JSON Schema
+
+```json
+{
+  "tables": [{ "name": "str", "rows": [["..."]], "bbox": [x, y, w, h] }],
+  "nozzles": [{ "bbox": [x, y, w, h], "view": "str", "text": "str" }],
+  "notes": { "notes": { "key": "val" }, "bbox": [x, y, w, h] }
+}
+
 
 ## Setup Instructions
 
