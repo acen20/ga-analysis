@@ -1,0 +1,752 @@
+[
+  {
+    "time": "66.90 Seconds",
+    "page": 1,
+    "tables": [
+      {
+        "name": "NOZZLE ＳＣHEDUＬE",
+        "rows": [
+          [
+            "MARK",
+            "Q,TY",
+            "SIZE (INCH)",
+            "SCH.",
+            "RATING",
+            "TYPE& FACING",
+            "DESIGNATION",
+            "TO PROJECTION",
+            "REMARKS"
+          ],
+          [
+            "CG",
+            "1",
+            "3\"",
+            "80S",
+            "ASME 150#",
+            "WN-RF",
+            "QUENCH",
+            "3480",
+            ""
+          ],
+          [
+            "CH",
+            "1",
+            "6\"",
+            "8053",
+            "ASME 150#",
+            "WN-RF",
+            "QUENCH",
+            "SEE DWG.",
+            "A2"
+          ],
+          [
+            "CL",
+            "1",
+            "2\"",
+            "",
+            "ASME 300#",
+            "LWN-RF",
+            "LSH",
+            "3480",
+            ""
+          ],
+          [
+            "CM2",
+            "1",
+            "2\"",
+            "A2",
+            "ASME 150#",
+            "LWN-RF",
+            "DRAIN",
+            "3480",
+            ""
+          ],
+          [
+            "CP2",
+            "1",
+            "2\"",
+            "-",
+            "ASME 150#",
+            "BLWN-RF",
+            "DRAIN RETURN",
+            "3480",
+            ""
+          ],
+          [
+            "CR1,2",
+            "2",
+            "3\"",
+            "80S",
+            "ASME 300#",
+            "WN-RF",
+            "TUB LEVEL",
+            "3480",
+            ""
+          ],
+          [
+            "CS1,2",
+            "2",
+            "3\"",
+            "805",
+            "ASME 300#",
+            "WN-RF",
+            "TUB LEVEL",
+            "3480",
+            ""
+          ],
+          [
+            "CX1,2",
+            "2",
+            "2\"",
+            "A2",
+            "ASME 300#",
+            "LWN-RF",
+            "PI",
+            "3480",
+            ""
+          ],
+          [
+            "CY",
+            "1",
+            "2\"",
+            "-",
+            "ASME 300#",
+            "LWN-RF",
+            "TI",
+            "SEE DWG.",
+            "A"
+          ],
+          [
+            "DC",
+            "1",
+            "8”",
+            "80S",
+            "ASME 150#",
+            "WN-RF",
+            "OUTLET",
+            "SEE DWG.",
+            ""
+          ],
+          [
+            "BO",
+            "1",
+            "8\"",
+            "8053",
+            "ASME 150#",
+            "WN-RF",
+            "VENTILATION",
+            "SEE DWG.",
+            ""
+          ],
+          [
+            "CM1",
+            "",
+            "2m",
+            "333",
+            "ASME150#",
+            "LWN-RF",
+            "DRAIM m~",
+            "SEE DWG.",
+            "A2"
+          ],
+          [
+            "CP1",
+            "。1。",
+            "2”",
+            "",
+            "ASME 150#",
+            "LWN-RF",
+            "DRAIN RETURN",
+            "SEE DWG.",
+            ""
+          ]
+        ],
+        "bbox": [
+          2482,
+          2685,
+          1178,
+          779
+        ]
+      },
+      {
+        "name": "MARK Q,TY SIZE (INCH) SCH. NO. RATING TYPE& FACING DESIGNATION TO PROJECTION",
+        "rows": [
+          [
+            "AB",
+            "1",
+            "4\"",
+            "80S",
+            "ASME 150#",
+            "WN-RF",
+            "VENT",
+            "SEE DWG."
+          ],
+          [
+            "AH1,2",
+            "2",
+            "2\"",
+            "-",
+            "ASME 300#",
+            "LWN-RF",
+            "PI",
+            "3480"
+          ],
+          [
+            "Al",
+            "1",
+            "3",
+            "80S",
+            "ASME 150#",
+            "WN-RF",
+            "INLET (REFLUX)",
+            "3480"
+          ],
+          [
+            "AJ",
+            "1",
+            "3\"",
+            "80S",
+            "ASME 150#",
+            "WN-RF",
+            "EQUALIZING",
+            "3480"
+          ],
+          [
+            "AO1,2 AU1~4",
+            "2",
+            "72”",
+            "t25",
+            "ASME 150#",
+            "WN-RF",
+            "VAPOR OUTLET",
+            "SEE DWG."
+          ],
+          [
+            "4",
+            "12\"",
+            "80S",
+            "ASME 150#",
+            "WN-RF",
+            "RELIEF",
+            "3530",
+            ""
+          ],
+          [
+            "AZ",
+            "1",
+            "24\"",
+            "t12",
+            "ASME 150#",
+            "WN-RF",
+            "MANHOLE",
+            "3580"
+          ],
+          [
+            "BB",
+            "1",
+            "24\" 1.D1120",
+            "t12",
+            "ASME 150#",
+            "WN-RF",
+            "MANHOLE",
+            "3580"
+          ],
+          [
+            "BC1,2",
+            "2",
+            "t30",
+            "SPECIAL",
+            "WN-RF",
+            "EXCHANGER A2",
+            "SEE DWG. 3730",
+            "FROME-2302A/B NOTE 9"
+          ],
+          [
+            "BD CB",
+            "",
+            "52\" 24”",
+            "t28",
+            "ASME 150#",
+            "WN-RF",
+            "INLET",
+            ""
+          ],
+          [
+            "",
+            "t12",
+            "ASME 150#",
+            "WN-RF",
+            "MANHOLE",
+            "3580",
+            "W/BF & DAVIT FROME-2303",
+            ""
+          ],
+          [
+            "CD",
+            "1 3",
+            "1.D1160",
+            "t30",
+            "SPECIAL",
+            "WN-RF LWN-RF",
+            "EXCHANGER",
+            "SEE DWG. SEE DWG."
+          ]
+        ],
+        "bbox": [
+          1297,
+          2689,
+          1183,
+          774
+        ]
+      },
+      {
+        "name": "DＥＳIＧN ＤＡＴＡ",
+        "rows": [
+          [
+            "CODE",
+            "ASME SEC. VII DIV.1 2010 ED., 2011 ADD",
+            "TYPE VERTICAL/LUG",
+            ""
+          ],
+          [
+            "REGULATION",
+            "一",
+            "CODE STAMP",
+            "NO"
+          ],
+          [
+            "FLUID A2",
+            "HYDROCARBONE",
+            "FLUID DENSITY (kg/m³)",
+            "918",
+            "DESIGN",
+            "PRESS(INT/EXT) kg/cm²g"
+          ],
+          [
+            "TEMP. A2 (C)",
+            "250/195",
+            "M.D.M.T (∴C)",
+            "15",
+            ""
+          ],
+          [
+            "OPER.",
+            "PRESS(TOP/BTM)kg/cm²g",
+            "18.5/19.5A2",
+            "SEISMIC FACTOR",
+            "ZONE O",
+            ""
+          ],
+          [
+            "TEMP.(TOP/BTM.) (C)",
+            "52/70",
+            "WIND VELOCITY (m/SEC)",
+            "40 (ASCE 7-10, EXP.=C)",
+            ""
+          ],
+          [
+            "HYDRO. TEST PRESS. kg/cm²g",
+            "8.41",
+            "INSULATION (HOT)",
+            "",
+            "PNEUM. TEST PRESS. kg/cm²g",
+            "-"
+          ],
+          [
+            "M.A.W.P. kg/cm²g",
+            "5.79",
+            "PAINTING",
+            "AS PER SPEC.14780-83A1",
+            ""
+          ],
+          [
+            "M.A.W.P. LIMITED BY",
+            "SHELL",
+            "WEIGHT",
+            "ERECTION (KG)"
+          ],
+          [
+            "RADIOGRAPHY (S/H)",
+            "SPOT/FULL",
+            "EMPTY (KG)",
+            "131200"
+          ],
+          [
+            "JOINT EFFICIENCY (S/H) (%)",
+            "85/100 A",
+            "OPER. (KG)",
+            "135900"
+          ],
+          [
+            "CORR. ALLOWANCE (mm)",
+            "INT.:1.5/EXT.:0.0",
+            "FULL WATER (KG)",
+            "469200"
+          ],
+          [
+            "P.W.H.T / STRESS RELIEVE",
+            "NO/NO",
+            "SPECIAL SERVICE",
+            "√:"
+          ]
+        ],
+        "bbox": [
+          73,
+          2684,
+          1235,
+          779
+        ]
+      },
+      {
+        "name": "GASKET SEE NOTE 6",
+        "rows": [
+          [
+            "SHELL SA240-304L",
+            "HEAD S240-304L",
+            "SETING BOLT/NUTSA307-B/SA563-A+H.D.G"
+          ],
+          [
+            "SUPPORT LUG SA285-C",
+            "LIFTING LUG/PADSA285-C/SA240-304L",
+            "VORTEX BREAKER SA240-304L"
+          ],
+          [
+            "BASE PLATE SA285-C",
+            "INSULATION SUPPORT RING 'SA240-304L A",
+            "STIFFENER RING SA240-304L"
+          ],
+          [
+            "",
+            "FITTING SA403-WP304L",
+            "I",
+            "PACKING A2 \"HOLD\" C"
+          ],
+          [
+            "FLANGE SA182-F304L",
+            "FLANGE 一",
+            "S.S SA240-304L3",
+            "NOZZLE NECK SA312-TP304L"
+          ],
+          [
+            "CLIP & SUPPORT A2 一",
+            "CLIP & SUPPORT 304L S.S",
+            "INTERNAL RUNG -",
+            ""
+          ],
+          [
+            "BOLT/NUT SA193-B7/SA194-2H3",
+            "BOLT/NUT 304L S.S",
+            "REINF.PAD SA240-304L",
+            ""
+          ],
+          [
+            "MATERIAL SPECIFICATION",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "念念",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          [
+            "A2 A",
+            "2013.11.29",
+            "BY OWNER COMMENT",
+            "ONE",
+            "K.B.KIM",
+            "Y.D.IM",
+            "Y.D.CHO"
+          ],
+          [
+            "NO. REV",
+            "DATE",
+            "DESCRIPTION",
+            "BY",
+            "CHK'D",
+            "VER'D",
+            "APP'D"
+          ]
+        ],
+        "bbox": [
+          3659,
+          1782,
+          1239,
+          825
+        ]
+      }
+    ],
+    "nozzles": [
+      {
+        "bbox": [
+          278,
+          794,
+          87,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "AZ 24\""
+      },
+      {
+        "bbox": [
+          277,
+          623,
+          88,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "AH2 2\""
+      },
+      {
+        "bbox": [
+          277,
+          1583,
+          88,
+          88
+        ],
+        "view": "Elevation View",
+        "text": "CP2 2\""
+      },
+      {
+        "bbox": [
+          277,
+          1396,
+          88,
+          90
+        ],
+        "view": "Elevation View",
+        "text": "CR2 3\""
+      },
+      {
+        "bbox": [
+          277,
+          1685,
+          87,
+          90
+        ],
+        "view": "Elevation View",
+        "text": "CL 2\""
+      },
+      {
+        "bbox": [
+          277,
+          706,
+          87,
+          90
+        ],
+        "view": "Elevation View",
+        "text": "AH1 2\""
+      },
+      {
+        "bbox": [
+          277,
+          1090,
+          89,
+          88
+        ],
+        "view": "Elevation View",
+        "text": "BD 52\""
+      },
+      {
+        "bbox": [
+          1058,
+          245,
+          89,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "BO 8\""
+      },
+      {
+        "bbox": [
+          1380,
+          246,
+          89,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "AO1 72\""
+      },
+      {
+        "bbox": [
+          277,
+          1190,
+          88,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "CH 6\""
+      },
+      {
+        "bbox": [
+          2108,
+          1492,
+          89,
+          90
+        ],
+        "view": "Elevation View",
+        "text": "CB 24\""
+      },
+      {
+        "bbox": [
+          277,
+          1292,
+          88,
+          88
+        ],
+        "view": "Elevation View",
+        "text": "CR1 3\""
+      },
+      {
+        "bbox": [
+          277,
+          1500,
+          88,
+          88
+        ],
+        "view": "Elevation View",
+        "text": "CP1 2\""
+      },
+      {
+        "bbox": [
+          2193,
+          1017,
+          86,
+          87
+        ],
+        "view": "Elevation View",
+        "text": "CX2 2\"\""
+      },
+      {
+        "bbox": [
+          2108,
+          1845,
+          89,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "DC 8\""
+      },
+      {
+        "bbox": [
+          2107,
+          1135,
+          90,
+          90
+        ],
+        "view": "Elevation View",
+        "text": "BB 24\""
+      },
+      {
+        "bbox": [
+          2107,
+          814,
+          90,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "\""
+      },
+      {
+        "bbox": [
+          2106,
+          1398,
+          91,
+          90
+        ],
+        "view": "Elevation View",
+        "text": "CS2 3\""
+      },
+      {
+        "bbox": [
+          1034,
+          1667,
+          90,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "BC2 1D1120"
+      },
+      {
+        "bbox": [
+          2107,
+          1296,
+          91,
+          90
+        ],
+        "view": "Elevation View",
+        "text": "CS1 3\""
+      },
+      {
+        "bbox": [
+          1380,
+          161,
+          90,
+          89
+        ],
+        "view": "Elevation View",
+        "text": "AO2 72\""
+      },
+      {
+        "bbox": [
+          1058,
+          161,
+          90,
+          90
+        ],
+        "view": "Elevation View",
+        "text": "AB x"
+      },
+      {
+        "bbox": [
+          2106,
+          706,
+          91,
+          88
+        ],
+        "view": "Elevation View",
+        "text": "AJ 3\""
+      },
+      {
+        "bbox": [
+          2108,
+          1016,
+          87,
+          88
+        ],
+        "view": "Elevation View",
+        "text": "CX1 2\""
+      },
+      {
+        "bbox": [
+          1414,
+          1669,
+          91,
+          87
+        ],
+        "view": "Elevation View",
+        "text": "CD 1.D1160"
+      },
+      {
+        "bbox": [
+          1217,
+          1667,
+          91,
+          88
+        ],
+        "view": "Elevation View",
+        "text": "BC1 1.D 1120"
+      }
+    ],
+    "notes": []
+  }
+]
