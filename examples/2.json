@@ -1,0 +1,963 @@
+[
+    {
+        "time": "63.72 Seconds",
+        "page": 1,
+        "tables": [
+            {
+                "name": "DESIGN DATA",
+                "rows": [
+                    [
+                        "CODE",
+                        "ASME SEC.VII DIV.1 (2010 ED. WITH 2011 ADD.)",
+                        "TYPE",
+                        "H-SADDLE",
+                        ""
+                    ],
+                    [
+                        "FLUID",
+                        "\"HOLD'",
+                        "CODE STAMP",
+                        "NO"
+                    ],
+                    [
+                        "LOCAL REGULATION",
+                        "NO",
+                        "SPECIAL SERVICE",
+                        "SERVICE CYCLIC"
+                    ],
+                    [
+                        "DESIGN (INT./EXT.)",
+                        "PRESS. (kg/cm g)",
+                        "3.5/F.V",
+                        "CAPACITY (M³)",
+                        "110.8"
+                    ],
+                    [
+                        "TEMP. (C)",
+                        "195/250",
+                        "SPECIFY GRAVITY",
+                        "1.0"
+                    ],
+                    [
+                        "STEAM OUT CONDITION",
+                        "一",
+                        "WIND VELOCITY",
+                        "ASCE 7–10, 40 m/s, EXP.=C"
+                    ],
+                    [
+                        "OPER. (NOR./REG.)",
+                        "PRESS. (kg/cm g)",
+                        "0.05/ 0.2",
+                        "SEISMIC CODE",
+                        "ZONE=0"
+                    ],
+                    [
+                        "TEMP. (C)",
+                        "16/119",
+                        "INSULATION (MM)",
+                        "80 (HOT)"
+                    ],
+                    [
+                        "HYDRO. TEST PRESS. (kg/cm g) (SHOP/FIELD)",
+                        "9.14",
+                        "FIREPROOFING (MM)",
+                        "NO"
+                    ],
+                    [
+                        "PNEUM. TEST PRESS. (kg/cm g)",
+                        "-",
+                        "PAINTING (PROCEDURE NO.)",
+                        "VP-14780-VESSEL-IⅢ-PR-0006"
+                    ],
+                    [
+                        "MA.W.P (HOT & CORRODED) (kg/cm g)",
+                        "6.79",
+                        "M.D.M.T (C)",
+                        "11"
+                    ],
+                    [
+                        "M.A.P (NEW & COLD) (kg/cm g)",
+                        "-",
+                        "CORROSION ALLOWANCE (MM)",
+                        "1.5"
+                    ],
+                    [
+                        "JOINT EFFICIENCY (S/H)",
+                        "1.0/1.0",
+                        "WEIGHT",
+                        "ERECTION (KG)"
+                    ],
+                    [
+                        "RADIOGRAPHY (S/H)",
+                        "FULL/FULL",
+                        "EMPTY (KG)",
+                        "52000",
+                        "",
+                        ""
+                    ],
+                    [
+                        "P.W.H.T",
+                        "NO",
+                        "OPERATING (KG)",
+                        "163750",
+                        "S.R OF HEAD AFTER COLD FORMING"
+                    ]
+                ],
+                "bbox": [
+                    3747,
+                    116,
+                    1038,
+                    728
+                ]
+            },
+            {
+                "name": "MATERIAL SPECIFICATIONS",
+                "rows": [
+                    [
+                        "SHELL/HEAD",
+                        "A240-304L",
+                        "EXTERNAL BOLTS/NUTS"
+                    ],
+                    [
+                        "SADDLE/PAD STD. W.N. FLNAGE",
+                        "A283-C/A240-304L A182-F304L",
+                        "INTERNAL BOLTS/NUTS EXTERNAL GASKETS"
+                    ],
+                    [
+                        "SEE NOTE \"7\"",
+                        "",
+                        ""
+                    ],
+                    [
+                        "PIPE/FITTING INTERNAL WELDED TO SHELL EXTERNAL WELDED TO SHELL",
+                        "A312-TP304L/A403-WP304L A240-304L",
+                        "INTERNAL GASKETS INSULATION/SUPPORTS"
+                    ],
+                    [
+                        "A240-304L",
+                        "NAME PLATE, EARTH LUG",
+                        "304S.S A307-B/A563-A (H.D.G)"
+                    ],
+                    [
+                        "INTERNALS",
+                        "A240-304L",
+                        "SETTING"
+                    ]
+                ],
+                "bbox": [
+                    3741,
+                    1918,
+                    1043,
+                    350
+                ]
+            },
+            {
+                "name": "NOZZLE LIST",
+                "rows": [
+                    [
+                        "NOZZLE MARK",
+                        "QTY /1 SET",
+                        "SIZE (INCH)",
+                        "FLANGE",
+                        "SERVICE",
+                        "VESSEL C.L PROJECTION",
+                        "REINF. PAD",
+                        "",
+                        ""
+                    ],
+                    [
+                        "RATING",
+                        "SCH.",
+                        "TH'K$",
+                        "0.D",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    [
+                        "AA",
+                        "1",
+                        "30\"",
+                        "ASME B16.47 SERIES \"B\" 150#WN.RF",
+                        "t12.5",
+                        "MANWAY (W/B.F &DAVIT)",
+                        "2430",
+                        "t15",
+                        "01220"
+                    ],
+                    [
+                        "Al",
+                        "1",
+                        "30\"",
+                        "ASME B16.47 SERIES \"B\" 150#WN.RF",
+                        "t15",
+                        "VAPOR INLET",
+                        "2430",
+                        "t19",
+                        "1040"
+                    ],
+                    [
+                        "AM",
+                        "1",
+                        "30\"",
+                        "ASME B16.47 SERIES \"B\" 150#WN.RF",
+                        "t12.5",
+                        "MANWAY (W/B.F&DAVIT)",
+                        "2430",
+                        "t19",
+                        "0950"
+                    ],
+                    [
+                        "AN",
+                        "1",
+                        "30\"",
+                        "ASME B16.47 SERIES \"B\" 150#WN.RF",
+                        "t12.5",
+                        "MANWAY (W/B.F &DAVIT)",
+                        "2220",
+                        "t19",
+                        "01060"
+                    ],
+                    [
+                        "AO",
+                        "1",
+                        "30\"",
+                        "ASME B16.47 SERIES \"B\" 150#WN.RF",
+                        "t12.5",
+                        "MANWAY (W/B.F&DAVIT)",
+                        "2220",
+                        "t15",
+                        "01230"
+                    ],
+                    [
+                        "AS",
+                        "1",
+                        "18\"",
+                        "ASME 150# WN.RF",
+                        "80",
+                        "STEAM INLET",
+                        "SEE DWG.",
+                        "t16.5",
+                        "0870"
+                    ],
+                    [
+                        "AX1",
+                        "1",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "-",
+                        "TI",
+                        "2380",
+                        "-",
+                        "-"
+                    ],
+                    [
+                        "AX2",
+                        "1",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "一",
+                        "TI",
+                        "2070",
+                        "-",
+                        "一"
+                    ],
+                    [
+                        "AX3",
+                        "1",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "-",
+                        "T1",
+                        "2380",
+                        "-",
+                        "-"
+                    ],
+                    [
+                        "AY",
+                        "1",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "-",
+                        "TI",
+                        "SEE DWG.",
+                        "-",
+                        "-"
+                    ],
+                    [
+                        "AZ",
+                        "1",
+                        "2\"",
+                        "ASME300# LWN.RF",
+                        "-",
+                        "T1",
+                        "2070",
+                        "-",
+                        "-"
+                    ],
+                    [
+                        "BA",
+                        "1",
+                        "6\"",
+                        "ASME 150# WN.RF",
+                        "80S",
+                        "RELIEF",
+                        "2380",
+                        "t19",
+                        "0300"
+                    ],
+                    [
+                        "BB",
+                        "1",
+                        "30\"",
+                        "ASME B16.47 SERIES \"B\" 150# WN.RF",
+                        "t12.5",
+                        "MANWAY (W/B.F & DAVIT)",
+                        "2430",
+                        "t15",
+                        "01230"
+                    ],
+                    [
+                        "BC",
+                        "1",
+                        "24\"",
+                        "ASME 150# WN.RF",
+                        "t12.5",
+                        "MANWAY (W/B.F & HINGE)",
+                        "2170",
+                        "t15",
+                        "01000"
+                    ],
+                    [
+                        "BG",
+                        "1",
+                        "3\"",
+                        "ASME150# WN.RF",
+                        "80S",
+                        "QUENCH (NNF)",
+                        "SEE DWG.",
+                        "t16.5",
+                        "0180"
+                    ],
+                    [
+                        "BH",
+                        "1",
+                        "4\"",
+                        "ASME150# WN.RF",
+                        "80S",
+                        "CONDENSATE OUTLET",
+                        "2070",
+                        "t19",
+                        "0210"
+                    ],
+                    [
+                        "BN",
+                        "1",
+                        "30\"",
+                        "ASME B16.47 SERIES \"B\" 150# WN.RF",
+                        "t15",
+                        "OUTLET",
+                        "SEE DWG.",
+                        "t16.5",
+                        "01410"
+                    ],
+                    [
+                        "BO",
+                        "1",
+                        "30\"",
+                        "ASME B16.47 SERIES \"B\" 150#WN.RF",
+                        "t12.5",
+                        "MANWAY (W/B.F&DAVIT)",
+                        "2220",
+                        "t15",
+                        "01230"
+                    ],
+                    [
+                        "BP1,2",
+                        "2",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "-",
+                        "PDI",
+                        "SEE DWG.",
+                        "-",
+                        "-"
+                    ],
+                    [
+                        "BV",
+                        "1",
+                        "2\"",
+                        "ASME150# LWN.RF",
+                        "-",
+                        "VENT",
+                        "SEE DWG.",
+                        "-",
+                        "-"
+                    ],
+                    [
+                        "BX1",
+                        "1",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "-",
+                        "TI",
+                        "2380",
+                        "-",
+                        "-"
+                    ],
+                    [
+                        "BX2",
+                        "1",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "-",
+                        "TI",
+                        "2070",
+                        "√",
+                        "-"
+                    ],
+                    [
+                        "BY",
+                        "1",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "-",
+                        "TI",
+                        "SEE DWG.",
+                        "-",
+                        "-"
+                    ],
+                    [
+                        "BZ",
+                        "1",
+                        "2\"",
+                        "ASME 300# LWN.RF",
+                        "",
+                        "TI",
+                        "SEE DWG.",
+                        "-",
+                        "一"
+                    ]
+                ],
+                "bbox": [
+                    3749,
+                    835,
+                    1043,
+                    1081
+                ]
+            }
+        ],
+        "nozzles": [
+            {
+                "bbox": [
+                    1936,
+                    347,
+                    77,
+                    77
+                ],
+                "view": "Elevation View",
+                "text": "AX3 2\""
+            },
+            {
+                "bbox": [
+                    1678,
+                    348,
+                    77,
+                    75
+                ],
+                "view": "Elevation View",
+                "text": "BB 30\""
+            },
+            {
+                "bbox": [
+                    1454,
+                    348,
+                    77,
+                    75
+                ],
+                "view": "Elevation View",
+                "text": "AM 30\""
+            },
+            {
+                "bbox": [
+                    877,
+                    347,
+                    76,
+                    77
+                ],
+                "view": "Elevation View",
+                "text": "AA 30\""
+            },
+            {
+                "bbox": [
+                    1599,
+                    347,
+                    75,
+                    77
+                ],
+                "view": "Elevation View",
+                "text": "BV 2\""
+            },
+            {
+                "bbox": [
+                    1286,
+                    1880,
+                    76,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "AN 30\""
+            },
+            {
+                "bbox": [
+                    875,
+                    1880,
+                    76,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "AO 30\""
+            },
+            {
+                "bbox": [
+                    1286,
+                    348,
+                    76,
+                    77
+                ],
+                "view": "Elevation View",
+                "text": "Al 30\""
+            },
+            {
+                "bbox": [
+                    1710,
+                    1880,
+                    77,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "BC 24\""
+            },
+            {
+                "bbox": [
+                    2396,
+                    1047,
+                    76,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "BP1 2\""
+            },
+            {
+                "bbox": [
+                    2396,
+                    1398,
+                    76,
+                    78
+                ],
+                "view": "Elevation View",
+                "text": "BZ 2\""
+            },
+            {
+                "bbox": [
+                    2397,
+                    965,
+                    76,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "BG 3\""
+            },
+            {
+                "bbox": [
+                    1126,
+                    348,
+                    75,
+                    75
+                ],
+                "view": "Elevation View",
+                "text": "BA 6\""
+            },
+            {
+                "bbox": [
+                    2396,
+                    885,
+                    76,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "BY 2\""
+            },
+            {
+                "bbox": [
+                    765,
+                    348,
+                    75,
+                    75
+                ],
+                "view": "Elevation View",
+                "text": "AX1 2\""
+            },
+            {
+                "bbox": [
+                    1760,
+                    348,
+                    78,
+                    77
+                ],
+                "view": "Elevation View",
+                "text": "Bx1 2\""
+            },
+            {
+                "bbox": [
+                    1519,
+                    1881,
+                    76,
+                    77
+                ],
+                "view": "Elevation View",
+                "text": "\""
+            },
+            {
+                "bbox": [
+                    763,
+                    1882,
+                    76,
+                    75
+                ],
+                "view": "Elevation View",
+                "text": "AX2 2\""
+            },
+            {
+                "bbox": [
+                    2397,
+                    1318,
+                    75,
+                    78
+                ],
+                "view": "Elevation View",
+                "text": "BP2 2\""
+            },
+            {
+                "bbox": [
+                    1831,
+                    346,
+                    78,
+                    78
+                ],
+                "view": "Elevation View",
+                "text": "BX2 2\""
+            },
+            {
+                "bbox": [
+                    578,
+                    1881,
+                    76,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "AZ 2\""
+            },
+            {
+                "bbox": [
+                    241,
+                    1355,
+                    76,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "AS 18\""
+            },
+            {
+                "bbox": [
+                    1629,
+                    1881,
+                    78,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "BO 30\""
+            },
+            {
+                "bbox": [
+                    2465,
+                    1319,
+                    71,
+                    76
+                ],
+                "view": "Elevation View",
+                "text": "BN 30\""
+            },
+            {
+                "bbox": [
+                    241,
+                    1160,
+                    76,
+                    77
+                ],
+                "view": "Elevation View",
+                "text": "AY 2\""
+            },
+            {
+                "bbox": [
+                    3589,
+                    1047,
+                    73,
+                    74
+                ],
+                "view": "A",
+                "text": "BP1 2\""
+            },
+            {
+                "bbox": [
+                    2971,
+                    1841,
+                    73,
+                    75
+                ],
+                "view": "A",
+                "text": "AZ 2\""
+            },
+            {
+                "bbox": [
+                    2559,
+                    1147,
+                    75,
+                    75
+                ],
+                "view": "A",
+                "text": "B×2 2\""
+            },
+            {
+                "bbox": [
+                    2630,
+                    1218,
+                    73,
+                    73
+                ],
+                "view": "A",
+                "text": "AO 30\""
+            },
+            {
+                "bbox": [
+                    2631,
+                    1320,
+                    72,
+                    74
+                ],
+                "view": "A",
+                "text": "BN 30\""
+            },
+            {
+                "bbox": [
+                    3590,
+                    1431,
+                    72,
+                    74
+                ],
+                "view": "A",
+                "text": "BZ 2\""
+            },
+            {
+                "bbox": [
+                    3109,
+                    419,
+                    75,
+                    73
+                ],
+                "view": "A",
+                "text": "BV 2\""
+            },
+            {
+                "bbox": [
+                    3178,
+                    1841,
+                    75,
+                    76
+                ],
+                "view": "A",
+                "text": "BC 24\""
+            },
+            {
+                "bbox": [
+                    3588,
+                    1147,
+                    75,
+                    76
+                ],
+                "view": "A",
+                "text": "AY 2\""
+            },
+            {
+                "bbox": [
+                    3040,
+                    1840,
+                    74,
+                    76
+                ],
+                "view": "A",
+                "text": "AX2 2\""
+            },
+            {
+                "bbox": [
+                    3041,
+                    420,
+                    73,
+                    72
+                ],
+                "view": "A",
+                "text": "AM 30\""
+            },
+            {
+                "bbox": [
+                    3247,
+                    418,
+                    76,
+                    75
+                ],
+                "view": "A",
+                "text": "BX1 2\""
+            },
+            {
+                "bbox": [
+                    3109,
+                    1842,
+                    74,
+                    75
+                ],
+                "view": "A",
+                "text": "BH 4\""
+            },
+            {
+                "bbox": [
+                    3179,
+                    419,
+                    73,
+                    74
+                ],
+                "view": "A",
+                "text": "BB 30\""
+            },
+            {
+                "bbox": [
+                    3589,
+                    967,
+                    73,
+                    74
+                ],
+                "view": "A",
+                "text": "BG 3\""
+            },
+            {
+                "bbox": [
+                    2629,
+                    1148,
+                    74,
+                    73
+                ],
+                "view": "A",
+                "text": "BO 30\""
+            },
+            {
+                "bbox": [
+                    2970,
+                    418,
+                    75,
+                    74
+                ],
+                "view": "A",
+                "text": "Al 30\""
+            },
+            {
+                "bbox": [
+                    3588,
+                    1357,
+                    74,
+                    72
+                ],
+                "view": "A",
+                "text": "AS 18\""
+            },
+            {
+                "bbox": [
+                    3589,
+                    887,
+                    74,
+                    74
+                ],
+                "view": "A",
+                "text": "BY 2\""
+            },
+            {
+                "bbox": [
+                    3041,
+                    348,
+                    73,
+                    75
+                ],
+                "view": "A",
+                "text": "AX1 2\""
+            },
+            {
+                "bbox": [
+                    3248,
+                    349,
+                    74,
+                    74
+                ],
+                "view": "A",
+                "text": "AX3 2\""
+            },
+            {
+                "bbox": [
+                    2630,
+                    1079,
+                    74,
+                    73
+                ],
+                "view": "A",
+                "text": "AN 30\""
+            },
+            {
+                "bbox": [
+                    3179,
+                    349,
+                    73,
+                    74
+                ],
+                "view": "A",
+                "text": "BA 6\""
+            },
+            {
+                "bbox": [
+                    3109,
+                    349,
+                    75,
+                    74
+                ],
+                "view": "A",
+                "text": "AA 30\""
+            }
+        ],
+        "notes": [
+            {
+                "notes": {
+                    "nozzle flange": "125 ~ 250 AARH",
+                    "gasket material": "SPIRAL WOUND(t4.5), AS PER ASME B 16.20",
+                    "filler": "FLEXIBLE GRAPHITE",
+                    "inner ring": "304L S.S",
+                    "hoop": "304L S.S",
+                    "outer ring": "304L S.S"
+                },
+                "bbox": [
+                    2274,
+                    2112,
+                    935,
+                    1256
+                ]
+            }
+        ]
+    }
+]
